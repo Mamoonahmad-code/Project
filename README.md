@@ -1,4 +1,4 @@
-#Program for Fibonacci numbers
+# Program for Fibonacci numbers
 
 
 The Fibonacci numbers are the numbers in the following integer sequence.
@@ -25,6 +25,7 @@ Output : 34
 
 Method 1 ( Use recursion ) 
 A simple method that is a direct recursive implementation mathematical recurrence relation given above.
+'''java
 
 //Fibonacci Series using Recursion in java
 
@@ -55,7 +56,7 @@ class fibonacci
 
     } 
 }
-
+'''
 Output
 34
 Time Complexity: T(n) = T(n-1) + T(n-2) which is exponential.
